@@ -1,0 +1,297 @@
+* {
+  font-family: "Oxygen", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo a {
+  text-decoration: none;
+  letter-spacing: 0.3125em;
+  color: black;
+}
+
+header .logo a strong {
+  color: black;
+  font-weight: bold;
+  /* letter-spacing: 5px; */
+}
+
+header {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  height: 55px;
+  width: 96.5%;
+  padding: 0 30px 0 30px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+header div ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header div ul li {
+  margin-left: 1.25em;
+}
+
+header ul li a {
+  text-decoration: none;
+  letter-spacing: 0.29em;
+  color: black;
+}
+
+.bg-img {
+  padding: 3.43em 0.625em 0 0.625em;
+}
+
+.bg-img div {
+  width: 100%;
+  align-self: center;
+  height: 100vh;
+  background-image: url(./photos/architect.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.bg-img .first-s {
+  font-size: 1.9em;
+  letter-spacing: 0.28em;
+  color: white;
+  font-size: 24px;
+}
+
+.bg-img .br {
+  padding: 0.625em 1em 0.625em 1em;
+  opacity: 75%;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.projects {
+  width: 90%;
+  padding: 3.125em 1.9em 0 1.9em;
+}
+
+#First-image {
+  flex-direction: column;
+}
+
+#Second-image {
+  flex-direction: column;
+}
+
+#First-image img {
+  height: 90%;
+  width: 90%;
+  padding: 2.5em 0 0 0;
+}
+
+.writeover-img {
+  background: black;
+  color: white;
+  position: absolute;
+  margin-top: 2.5em;
+  height: 2.5em;
+  width: 8.75em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#First-image li {
+  list-style: none;
+  /* position: relative; */
+}
+
+.projects #First-image ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+#Second-image img {
+  height: 90%;
+  width: 90%;
+  padding: 2.5em 0 0 0;
+}
+
+#Second-image li {
+  list-style: none;
+}
+
+#Second-image ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about h2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.about {
+  width: 90%;
+  height: 90vh;
+  padding: 2.5em 1.9em 2.5em 1.9em;
+}
+
+.about .para {
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.about2nd {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.25em;
+}
+
+.main-img {
+  padding: 2.5em 1.25em 2.5em 1.25em;
+  /* height: 23.43em; */
+  /* width: 20.31em; */
+}
+
+.main-img img {
+  height: 60%;
+  width: 110%;
+  filter: grayscale(70%);
+}
+
+.main-img h3 {
+  margin: 0.625em 0;
+}
+
+.subtital {
+  margin: 0.625em 0;
+  color: #979797;
+}
+.main-img p {
+  font-weight: 1em;
+}
+
+.cont {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.content {
+  width: 80%;
+  padding: 0 1.9em 0 1.9em;
+}
+
+.contant h2 {
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+
+.contant p {
+  padding: 16px 0 0 0;
+}
+
+.forms input {
+  display: flex;
+  width: 120%;
+  padding: 8px;
+  margin: 24px 0;
+  border: solid 0.5px rgb(213, 204, 204);
+}
+
+button {
+  width: 8.75em;
+  height: 2.5em;
+  background: black;
+  color: white;
+  font-size: 0.9em;
+  margin: 16px 0 0 0;
+  border: none;
+}
+
+button:hover {
+  color: black;
+  background: rgb(212, 204, 204);
+  cursor: pointer;
+}
+
+.map-img {
+  width: 100%;
+}
+
+.map-img img {
+  width: 120%;
+  margin: 1.5em 0 0 0;
+  background-size: cover;
+}
+
+.last {
+  height: 6.25em;
+  background: black;
+  padding: 0;
+  margin: 0%;
+}
+
+.last p {
+  color: white;
+  text-align: center;
+  padding: 1.9em;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 100px;
+  }
+  .logo {
+    font-size: 40px;
+    padding: 1em;
+    font-weight: 400;
+  }
+  strong {
+    font-weight: 1200;
+  }
+  .bg-img div {
+    height: 25vh;
+  }
+  .first-s {
+    display: none;
+  }
+  .br {
+    font-size: 70px;
+    font-weight: 1200;
+  }
+  header div {
+    display: none;
+  }
+  #First-image ul {
+    flex-direction: column;
+  }
+
+  #Second-image ul {
+    flex-direction: column;
+  }
+
+  .about2nd {
+    flex-direction: column;
+  }
+  .main-img {
+    wi
+  }
+}
